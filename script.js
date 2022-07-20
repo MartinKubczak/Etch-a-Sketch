@@ -4,9 +4,15 @@ const container = document.querySelector(".container");
 
 function createDiv() // this function create div elements
 {
-const div = document.createElement('div');
-return div;
+    const div = document.createElement('div');
+    div.setAttribute("class", "newDiv");
+    return div;
 }
 
+for (let i = 0; i < 256; i++) {
+    grid.appendChild(createDiv());
+}
+
+container.appendChild(grid);
 
 
