@@ -1,4 +1,19 @@
-.container{
-display: flex;
+body{
+    display:flex;
+}
 
+div{
+    flex: auto;
+}
+
+
+
+
+.container{
+            display: flex;
+            position: absolute;
+            width: 100%;
+            min-height: 100%;
+            left: 0;
+            top: 0;
 }
