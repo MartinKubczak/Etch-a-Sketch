@@ -3,17 +3,42 @@ body{
 }
 
 div{
-    flex: auto;
+    box-sizing: border-box;
 }
 
-
-
-
 .container{
+           box-sizing: border-box;
             display: flex;
             position: absolute;
             width: 100%;
             min-height: 100%;
             left: 0;
             top: 0;
+            flex-wrap:wrap;
+            justify-content:center;
+}
+    .etchSketch{
+        top:5%;
+        box-sizing:border-box;
+        background-color:black;
+        display:flex;
+        position:absolute;
+        width:30vw;
+        height:30vw;
+        flex-wrap:wrap;
+       justify-content: center;
+    }
+.newDiv{
+ padding-top:6.25%;
+ box-sizing:border-box;
+ flex: 1 1 6.25%;
+ width: 6,25%;
+ height: 6.25%w;
+ background-color: aqua;
+ border: 0.01vw;
+ border-color:azure;
+ border-style:solid;
+ transition-duration:1s;
+ transition-timing-function:cubic-bezier(0, 0, 1, 1);
+ 
 }
