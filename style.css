@@ -16,6 +16,7 @@ div{
             top: 0;
             flex-wrap:wrap;
             justify-content:center;
+            background-color: aliceblue;
 }
     .etchSketch{
         top:5%;
@@ -29,25 +30,19 @@ div{
        justify-content: center;
     }
 .newDiv{
- padding-top:6.25%;
  box-sizing:border-box;
- flex: 1 1 6.25%;
- width: 6,25%;
- height: 6.25%w;
  background-color: aqua;
  border: 0.01vw;
  border-color:azure;
  border-style:solid;
+ flex-grow:1;
 }
  
  .newDivHover{
-    padding-top:6.25%;
     box-sizing:border-box;
-    flex: 1 1 6.25%;
-    width: 6,25%;
-    height: 6.25%w;
-    background-color: rgb(147, 8, 228);
+    background-color:red;
     border: 0.01vw;
     border-color:azure;
     border-style:solid;
+    flex-grow:1;
  }
